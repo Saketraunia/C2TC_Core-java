@@ -6,14 +6,14 @@ public class UserInput {
 		Scanner n =new Scanner(System.in);
 		System.out.println(" entern the number of element");
 		int num=n.nextInt();
-		System.out.println(num);
+		//System.out.println(num);
 		int[] arr=new int[num];
-		for(int i=0;i<num;i++)
+		for(int i=0;i<arr.length;i++)
 		{
 			arr[i]=n.nextInt();
 		}
-		for (int j=0;j<num;j++) {
-			System.out.println(arr[j]);
+		for (int j=0;j<=num;j++) {
+			System.out.print(arr[j]);
 		}
 }
 } 
