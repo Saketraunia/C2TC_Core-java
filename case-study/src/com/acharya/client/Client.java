@@ -12,9 +12,9 @@ public class Client {
 		BankFactory bf = new MMBankFactory();
 		SavingAcc sa= new  MMsavingAcc(201, "saket",2000, true);
 		CurrentAcc ca= new MMCurrentAcc (301, "manish",2500);
-        bf.deposit(bf.getaccBal());
-        bf.toString();
-        ca.withdraw(ca.get());
+        sa.withdraw (sa.getAccBal());
+        sa.toString();
+        ca.withdraw(ca.getCreditlimit());
         ca.toString();
         
 	}
